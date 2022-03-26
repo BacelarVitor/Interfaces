@@ -7,10 +7,11 @@ func main() {
 
 }
 
-func (eb englishBot) getGreeting() string {
+func (englishBot) getGreeting() string {
+	// VERY custom logic for generating english greeting
 	return "Hello!"
 }
 
-func (sb spanishBot) getGreeting() string {
+func (spanishBot) getGreeting() string {
 	return "Hola!"
 }
